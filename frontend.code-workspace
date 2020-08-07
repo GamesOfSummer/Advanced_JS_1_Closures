@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "javascript.format.enable": false,
+    "eslint.alwaysShowStatus": true,
+    "vscode.tsc.compiler.alertTSConfigChanges": "never",
+    "java.configuration.updateBuildConfiguration": "automatic"
+  }
+}

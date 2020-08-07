@@ -1,0 +1,36 @@
+{
+  "name": "codewars-n-divisible-by-x-and-y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+    "@types/jest": "^26.0.9",
+    "@types/sinon": "^9.0.4",
+    "jest": "^26.2.2",
+    "npm-check-updates": "^7.0.3",
+    "sinon": "^9.0.2",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27"
+  },
+  "scripts": {
+    "build": "tsc src/index.ts",
+    "run": "node dist/index.js ",
+    "test": "mocha dist/indexTest.js",
+    "install-npm-packages": "npm install",
+    "check-my-packages": "ncu",
+    "update-npm-packages": "ncu -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GamesOfSummer/Codewars-n-divisible-by-x-and-y.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GamesOfSummer/Codewars-n-divisible-by-x-and-y/issues"
+  },
+  "homepage": "https://github.com/GamesOfSummer/Codewars-n-divisible-by-x-and-y#readme"
+}
