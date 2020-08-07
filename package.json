@@ -1,5 +1,5 @@
 {
-  "name": "codewars-n-divisible-by-x-and-y",
+  "name": "closures",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build": "tsc src/index.ts",
-    "run": "node dist/index.js ",
+    "run": "node src/index.js ",
     "test": "mocha dist/indexTest.js",
     "install-npm-packages": "npm install",
     "check-my-packages": "ncu",
