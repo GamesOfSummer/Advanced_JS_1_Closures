@@ -24,7 +24,11 @@ function createFunction() {
   };
 }
 
+// result of RUNNING createFunction ONCE
 let generatedFunction = createFunction();
+
+//JS is a synchrous language, it reads the line and moves on -
+// therefore, geneartedFunc is the code inside createFunction - THAT IS IT
 console.log(generatedFunction(3));
 
 console.log("\n==============\n\n");
